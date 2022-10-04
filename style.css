@@ -7,3 +7,6 @@ body {
 img {
     max-width: 80vw;
 }
+#baner-rek{
+    transform: rotate(90deg);
+}
