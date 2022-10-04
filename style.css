@@ -5,42 +5,34 @@ body {
     background: url("tlo.jpg") repeat center;
     text-align: center;
 }
-img {
-    max-width: 50%;
-}
+
 #baner-rek{
-    transform: rotate(90deg);
     background: aqua;
     padding: 20px;
 }
-nav{
-    position: fixed;
-    width: 25%;
-}
-section{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-aside{
-    width: 25%;
-    right: 0;
-    top: 50%;
-    position: fixed;
-}
+
+
 #stopka{
-    clear: both;
+    background: black;
+    padding: 20px;
+    margin-top: 25px;
 }
-li{
-    margin-bottom: 10px;
-    margin-left: 0;
-    padding: 10px;
-}
+
 ul{
     list-style: none;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0;
     list-style-position: inside;
+}
+
+.links{
+    color: aqua;
+}
+
+.nav_a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
 }
 
 li:nth-child(odd) {
@@ -49,9 +41,5 @@ li:nth-child(odd) {
 li:nth-child(even) {
     background: rgba(147, 149, 178, 0.6);
 }
-#head-line{
-    width: calc(50% + 3%);
-}
-.article-line{
-    width: 100%
-}
+
+
