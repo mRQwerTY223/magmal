@@ -5,36 +5,46 @@ body {
     background: url("tlo.jpg") repeat center;
     text-align: center;
 }
-
-#baner-rek{
-    background: aqua;
-    padding: 20px;
+header h1{
+    font-style: italic;
+    color: antiquewhite;
 }
-
-
+h3 {
+    color: aquamarine;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    text-decoration: underline;
+}
 #stopka{
     background: black;
     padding: 20px;
     margin-top: 25px;
 }
-
-ul{
-    list-style: none;
-    padding-left: 0;
-    list-style-position: inside;
+article {
+    background: rgba(167, 173, 172, 0.18);
+    padding: 5px;
+    border-radius: 20px;
 }
-
+#baner-rek{
+    background: aqua;
+    padding: 20px;
+}
 .links{
     color: aqua;
 }
-
 .nav_a{
     color: white;
     text-decoration: none;
     display: block;
     padding: 10px;
 }
-
+ul{
+    list-style: none;
+    padding-left: 0;
+    list-style-position: inside;
+}
 li:nth-child(odd) {
     background: rgba(108, 114, 179, 0.6);
 }
